@@ -1,0 +1,134 @@
+<!Doctype html>
+<html lang="en-US">
+<head>
+
+<title> iskills-sign up </title>
+<link id="linkIcon" rel="icon" type="image/png" href="image/isicon2.png"/>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet"  href="css/all.min.css"/>
+<link rel="stylesheet"  href="css/fontawesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="design.css" />
+
+</head>
+<body>
+
+  <header id="nav">
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-top  sm-4">
+    <div class="container">
+     
+      <div class="col-sm-4">
+      <center> <div id="mainlogo" class=""> <img  src="image/myl.png"/>     </div> </center>
+      </div>
+      <div class="col-sm-8">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">  </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav" id="mynav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Team</a>
+          </li>
+          <li class="nav-item">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Course
+            </a>
+        <div class="dropdown-menu" id="submenulist_li" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="index.html">WEB DESIGN</a>
+              <a class="dropdown-item" href="index.html">WEB DEVELOPMENT</a>
+          <a class="dropdown-item" href="index.html">APPS DEVELOPMENT</a>
+          <a class="dropdown-item" href="index.html">WORDPRESS</a>
+          <a class="dropdown-item" href="index.html">GRAPHIC DESIGN</a>
+          <a class="dropdown-item" href="index.html">LOGO DESIGN</a>
+          <a class="dropdown-item" href="index.html">DIGITAL MARKETING</a>
+            <a class="dropdown-item" href="index.html">VIDEO EDITING</a>
+              <a class="dropdown-item" href="index.html">ANIMATION</a>
+          <a class="dropdown-item" href="index.html">SEO</a>
+            </div>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" id="submenulist" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="index.html">WEB DESIGN</a>
+              <a class="dropdown-item" href="index.html">WEB DEVELOPMENT</a>
+              <a class="dropdown-item" href="index.html">WORDPRESS</a>
+          <a class="dropdown-item" href="index.html">GRAPHIC DESIGN</a>
+          <a class="dropdown-item" href="index.html">LOGO DESIGN</a>
+          <a class="dropdown-item" href="index.html">SEO</a>
+            </div>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Contact</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="login.html" >Sign Up</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+    </nav>
+    </header>
+
+
+
+<div class="login_body">
+<div id="wrapper">
+<h2> Sign up </h2>
+<form method="post" action="index.php" onsubmit="return validate()" name="vform">
+<div id="username_div">
+<label>  Username </label> </br>
+<input type="text" name="username" class="textinput">
+<div id="name_error"> </div>
+</div>
+<div id="email_div">
+<label> Email</label> </br>
+<input type="email" name="email" class="textinput">
+<div id="email_error"> </div>
+</div>
+<div id="password_div">
+<label> Password</label> </br>
+<input type="password" name="password" class="textinput">
+
+</div>
+<div id="pass_confirm_div">
+<label> Password confirm</label> </br>
+<input type="password" name="password_confirm" class="textinput">
+<div id="password_error"> </div>
+</div>
+<div>
+<input type="submit" name="register" value="Register Account" class="login-btn">
+</div>
+</form>
+</div>
+
+</div>
+
+
+
+    <section id="copyRight">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+     <h6> <span> <i class="far fa-copyright"></i>  </span> COPYRIGHT - 2020 IMPROVE SKILLS // POWERED BY SHWPON MAHMUD </h6>
+    </div>
+    </div>
+    </div>
+    </section>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
